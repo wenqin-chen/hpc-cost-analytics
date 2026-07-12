@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+export/salt.local
+export/campaign_map.local.json
+export/sources.local.json
+export/family_rewrites.local.json
+export/forbidden_extra.local.json
+export/parse_*.py
+warehouse/*.duckdb
+review/
+learning/

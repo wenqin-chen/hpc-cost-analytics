@@ -1,0 +1,11 @@
+{
+ "sources": [
+  {"name": "continuum_scf", "module": "parse_source_a", "root": "/path/to/private/continuum_solver_outputs"},
+  {"name": "lattice_scf_v2", "module": "parse_source_b", "root": "/path/to/private/lattice_v2_outputs"},
+  {"name": "lattice_scf", "module": "parse_source_c", "root": "/path/to/private/lattice_v1_outputs"}
+ ],
+ "requests": {
+  "module": "parse_requests",
+  "roots": ["/path/to/private/project_roots"]
+ }
+}
