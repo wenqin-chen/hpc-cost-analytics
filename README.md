@@ -3,7 +3,7 @@
 **Pricing scientific HPC runs before launch: cost analytics on 2,127 solver runs
 from my own research computing.**
 
-Two years of production telemetry from three research codebases (a continuum
+Production telemetry from three research codebases (a continuum
 Hartree-Fock solver and two lattice mean-field solvers), assembled into a DuckDB
 warehouse, audited, and used to build a run-cost model and two scheduling policies:
 calibrated walltime requests and cheap-first seed ordering.
