@@ -8,6 +8,10 @@ Hartree-Fock solver and two lattice mean-field solvers), assembled into a DuckDB
 warehouse, audited, and used to build a run-cost model and two scheduling policies:
 calibrated walltime requests and cheap-first seed ordering.
 
+This is a curated public release of a private analytics pipeline, with a squashed
+history: the redacted dataset, notebooks, and audit tests live here; the raw logs and
+source-repo parsers stay private (see the redaction contract below).
+
 ## Findings at a glance
 
 - **44% of the flagship source's 508 wall-hours** went to runs that never converged.
